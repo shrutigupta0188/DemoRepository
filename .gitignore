@@ -151,6 +151,7 @@ target/
 *.ear
 *.logs
 *.iml
+*.properties
 .idea/
 pom.xml.tag
 pom.xml.releaseBackup
