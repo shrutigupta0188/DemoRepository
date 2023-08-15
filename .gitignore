@@ -6,7 +6,7 @@
 .settings/
 .classpath
 .project
-*/target/**
+
 
 
 # Created by https://www.gitignore.io/api/macos,java,windows,intellij,intellij+iml,maven
@@ -145,6 +145,13 @@ modules.xml
 
 ### Maven ###
 target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.iml
+.idea/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
