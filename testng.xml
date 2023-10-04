@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!--parallel = "tests"-->
+	<test thread-count="5" name="Positive Test of placing order">
+		<classes>
+			<class name="amazonEcom.tests.LoginTest" />
+		</classes>
+	</test>
+
+	<!--<test thread-count="5" name="Negative Test">
+		<classes>
+			<class name="amazonEcom.tests.ErrorValidation">
+				<methods>
+					<exclude name="CheckPrint" />
+				</methods>
+			</class>
+		</classes>
+	</test> Suite -->
+
+</suite>  
